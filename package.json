@@ -1,0 +1,19 @@
+{
+  "name": "hello-serverless",
+  "version": "1.0.0",
+  "description": "Lambda de ejemplo",
+  "main": "handler.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "diego",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.670.0",
+    "aws-sdk-mock": "^5.1.0",
+    "jest": "^26.0.1",
+    "serverless": "^1.69.0",
+    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-offline": "^6.1.5"
+  }
+}

@@ -1,0 +1,21 @@
+service: hello-serverless
+# app and org for use with dashboard.serverless.com
+#app: MyFirstApp
+#org: dmeneses8-123
+
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+       - http:
+          path: /hello
+          method: get
+
+plugins:
+   - serverless-offline

@@ -9,7 +9,7 @@
   "author": "diego",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.670.0",
+    "aws-sdk": "^2.814.0",
     "aws-sdk-mock": "^5.1.0",
     "jest": "^26.0.1",
     "serverless": "^1.69.0",
